@@ -14,3 +14,8 @@ xUnit – framework de testes unitários usado nos testes do projeto.
 PostgreSQL via Npgsql – banco de dados relacional para persistência. (Por padrão o appsettings.json usa Postgres em localhost:5432, mas você pode trocar para outro banco alterando a string de conexão.)
 
 Swagger – (opcional) para documentação dos endpoints (disponível ao rodar a API em ambiente de desenvolvimento).
+
+## Como Rodar o Projeto Localmente com Docker
+
+´´´ bash
+´´´
