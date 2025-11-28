@@ -17,5 +17,12 @@ Swagger – (opcional) para documentação dos endpoints (disponível ao rodar a
 
 ## Como Rodar o Projeto Localmente com Docker
 
-´´´ bash
-´´´
+1. No terminal vá em API_CEP/API_CEP e então escreva:
+```bash
+docker compose up --build
+```
+
+2. Abra o navegador e cole:
+```bash
+http://localhost:8080/swagger
+```
