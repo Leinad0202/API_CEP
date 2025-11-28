@@ -54,7 +54,7 @@ Configurar a string de conexão: (Opcional) Se necessário, ajuste a string de c
 
 Este projeto inclui testes unitários escritos com xUnit. Para executá-los, siga:
 
-No terminal, navegue até a pasta do solution.
+No terminal, navegue até a pasta CEP_API/CEP_API.Tests.
 
 Rode o comando:
 ```bash
