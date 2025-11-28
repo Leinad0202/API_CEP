@@ -102,3 +102,20 @@ dotnet API_CEP.dll
 
 Isso iniciará o serviço sem necessidade de código-fonte. O resultado deste publish já está pronto para ser hospedado em qualquer servidor.
 
+## Licença
+
+Este projeto está licenciado sob a licença MIT (consulte o arquivo LICENSE para detalhes).
+
+
+
+## Fontes de referência: 
+Documentação oficial do .NET (para os comandos dotnet run, dotnet test e dotnet publish
+learn.microsoft.com
+learn.microsoft.com
+learn.microsoft.com
+e do Microsoft IIS (configuração de Application Pool em No Managed Code
+learn.microsoft.com
+, publicação para IIS
+learn.microsoft.com
+learn.microsoft.com
+).
