@@ -26,3 +26,7 @@ docker compose up --build
 ```bash
 http://localhost:8080/swagger
 ```
+
+Caso decida sem docker!
+
+1.Restaurar pacotes: No terminal, navegue até a pasta do projeto (onde está o .sln) e execute ```bash dotnet restore```. O comando restaura todas as dependências necessárias.
