@@ -50,3 +50,28 @@ Clonar o repositório: Abra um terminal e execute git clone <URL-do-repositório
 
 Configurar a string de conexão: (Opcional) Se necessário, ajuste a string de conexão no arquivo appsettings.json para apontar para seu banco de dados PostgreSQL ou outro. Por exemplo: "Host=localhost;Port=5432;Database=cepdb;Username=postgres;Password=senha".
 
+## Testes
+
+Este projeto inclui testes unitários escritos com xUnit. Para executá-los, siga:
+
+No terminal, navegue até a pasta do solution.
+
+Rode o comando:
+```bash
+dotnet test
+```
+
+Esse comando compila o projeto de testes e executa todos os testes, mostrando o resultado no console
+learn.microsoft.com
+
+
+Os testes cobrem os comportamentos principais da aplicação, como:
+
+1. A busca de CEP no serviço ViaCEP e inserção no banco.
+
+2. Tratamento de CEP inválido (retornando BadRequest).
+
+3. Regras de cache do controlador (ex.: resposta Ok quando já existe em cache).
+
+4. Os endpoints (controller) GetByCep, GetAll, verificando retornos 200, 400, 404 conforme cada cenário.
+
