@@ -30,3 +30,23 @@ http://localhost:8080/swagger
 Caso decida sem docker!
 
 1.Restaurar pacotes: No terminal, navegue até a pasta do projeto (onde está o .sln) e execute ```bash dotnet restore```. O comando restaura todas as dependências necessárias.
+
+2.E então faça:
+
+```bash
+dotnet run
+```
+
+3. Abra a API aqui
+
+```bash
+http://localhost:5115/swagger
+```
+
+### Obs
+Pré-requisitos: Instale o .NET 8 SDK, o Git e uma IDE como Visual Studio 2022 ou Visual Studio Code.
+
+Clonar o repositório: Abra um terminal e execute git clone <URL-do-repositório> para copiar o projeto.
+
+Configurar a string de conexão: (Opcional) Se necessário, ajuste a string de conexão no arquivo appsettings.json para apontar para seu banco de dados PostgreSQL ou outro. Por exemplo: "Host=localhost;Port=5432;Database=cepdb;Username=postgres;Password=senha".
+
