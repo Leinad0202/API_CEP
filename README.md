@@ -75,3 +75,30 @@ Os testes cobrem os comportamentos principais da aplicação, como:
 
 4. Os endpoints (controller) GetByCep, GetAll, verificando retornos 200, 400, 404 conforme cada cenário.
 
+
+
+
+
+## Deploy Local (Manual)
+
+Para produzir uma versão pronta para produção local:
+
+No terminal, publique o projeto com o comando:
+```bash
+dotnet publish --configuration Release
+```
+
+O comando dotnet publish compila o aplicativo e gera todos os arquivos necessários em um diretório de saída para implantação
+learn.microsoft.com
+. Por padrão, os arquivos publicados ficarão em API_CEP/API_CEP/bin/Release/net8.0/publish
+learn.microsoft.com
+.
+
+Após publicar, você pode executar a API publicada acessando a pasta gerada. Por exemplo:
+```bash
+cd API_CEP/bin/Release/net8.0/publish
+dotnet API_CEP.dll
+```
+
+Isso iniciará o serviço sem necessidade de código-fonte. O resultado deste publish já está pronto para ser hospedado em qualquer servidor.
+
