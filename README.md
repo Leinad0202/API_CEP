@@ -108,14 +108,10 @@ Este projeto está licenciado sob a licença MIT (consulte o arquivo LICENSE par
 
 
 
-## Fontes de referência: 
-Documentação oficial do .NET (para os comandos dotnet run, dotnet test e dotnet publish
+## Fontes de referência
+
+Documentação oficial do .NET (para os comandos dotnet run, dotnet test e dotnet publish)
+
 learn.microsoft.com
-learn.microsoft.com
-learn.microsoft.com
-e do Microsoft IIS (configuração de Application Pool em No Managed Code
-learn.microsoft.com
-, publicação para IIS
-learn.microsoft.com
-learn.microsoft.com
-).
+
+e do Microsoft IIS (configuração de Application Pool em No Managed Codelearn.microsoft.com, publicação para IIS).
